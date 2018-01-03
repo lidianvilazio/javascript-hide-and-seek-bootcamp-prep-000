@@ -12,7 +12,6 @@ function nestedTarget() {
 function deepestChild() {
   debugger
   var  n = document.getElementById("grand-node")
-  console.log(n.length)
   var nextN = n.children[0]
 
   // for(var i = n.length; i >= 0; i--) {
@@ -23,7 +22,6 @@ function deepestChild() {
     n = nextN
     nextN = n.children[0]
   }
-  console.log(n.length)
   return n
 }
 
