@@ -22,7 +22,7 @@ function deepestChild() {
     n = nextN
     nextN = n.children[0]
   }
-  console.log(n)
+  console.log(n.length)
   return n
 }
 
